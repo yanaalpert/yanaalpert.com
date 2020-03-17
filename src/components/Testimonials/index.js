@@ -1,5 +1,30 @@
 import React from 'react'
 
+import 'slick-carousel/slick/slick.css'
+import 'slick-carousel/slick/slick-theme.css'
+
+import Slider from 'react-slick'
+
+const sliderSettings = {
+  infinite: true,
+  slidesToShow: 2,
+  slidesToScroll: 2,
+  autoplay: true,
+  autoplaySpeed: 5000,
+  speed: 1000,
+  appendArrows: false,
+  dots: true,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+  ]
+}
+
 const Testimonials = () => (
   <div className="fifth-section">
     <div className="section-fifth-wrapper">
@@ -8,7 +33,7 @@ const Testimonials = () => (
         <p>What my clients say about me.</p>
       </div>
       <div className="testimonials-section">
-        <div className="testimonials-section__slider">
+        <Slider className="testimonials-section__slider" {...sliderSettings}>
           <div className="slider-item">
             <div className="slider-inner">
               <div className="slider-inner__user">
@@ -85,7 +110,7 @@ const Testimonials = () => (
               </div>
             </div>
           </div>
-        </div>
+        </Slider>
       </div>
     </div>
   </div>

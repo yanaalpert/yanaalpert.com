@@ -7,6 +7,10 @@ import Helmet from 'react-helmet'
 import Header from './Header'
 import Footer from './Footer'
 
+import AppleTouch from '../icons/favicon/apple-touch-icon.png'
+import Icon32 from '../icons/favicon/favicon-32x32.png'
+import Icon16 from '../icons/favicon/favicon-16x16.png'
+
 const Layout = ({ children }) => {
   return (
     <>
@@ -14,6 +18,10 @@ const Layout = ({ children }) => {
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
+
+        <link rel="apple-touch-icon" sizes="180x180" href={AppleTouch} />
+        <link rel="icon" type="image/png" sizes="32x32" href={Icon32} />
+        <link rel="icon" type="image/png" sizes="16x16" href={Icon16} />
 
         <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap" rel="stylesheet" />
         <link
