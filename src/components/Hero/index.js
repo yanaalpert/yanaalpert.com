@@ -42,7 +42,7 @@ const Hero = () => (
         </div>
       </div>
       <div className="Hero__right">
-        <img src={Photo} />
+        <img src={Photo} alt="Yana Alpert Portrait" />
       </div>
     </div>
   </Element>
