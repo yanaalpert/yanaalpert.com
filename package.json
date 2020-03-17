@@ -1,0 +1,55 @@
+{
+  "name": "yanaalpert.com",
+  "private": true,
+  "description": "Yana Alpert Personal Portfolio",
+  "version": "0.1.0",
+  "author": "Yana Alpert <hello@yanaalpert.com>",
+  "dependencies": {
+    "gatsby": "2.19.45",
+    "gatsby-image": "2.2.44",
+    "gatsby-plugin-manifest": "^2.2.48",
+    "gatsby-plugin-offline": "3.0.41",
+    "gatsby-plugin-react-helmet": "3.1.24",
+    "gatsby-plugin-sass": "^2.1.31",
+    "gatsby-source-filesystem": "2.1.56",
+    "node-sass": "^4.13.1",
+    "prop-types": "15.7.2",
+    "react": "16.13.0",
+    "react-dom": "16.13.0",
+    "react-helmet": "5.2.1",
+    "react-scroll": "^1.7.16",
+    "react-slick": "^0.25.2",
+    "slick": "^1.12.2"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.19.0",
+    "prettier": "1.19.1",
+    "prettier-eslint": "^9.0.1"
+  },
+  "keywords": [
+    "gatsby",
+    "alpert"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ialpert/yanaalpert.com"
+  },
+  "bugs": {
+    "url": "https://github.com/ialpert/yanaalpert.com/issues"
+  }
+}
