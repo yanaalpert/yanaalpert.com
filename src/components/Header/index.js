@@ -60,7 +60,12 @@ const Header = () => {
         <div className="Header__links">
           <ul>
             <li>
-              <a href="#">
+              <a href="https://www.linkedin.com/in/yana-alpert/">
+                <i className="fab fa-linkedin"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/yanaalpert">
                 <i className="fab fa-github-alt"></i>
               </a>
             </li>
@@ -83,22 +88,29 @@ const Header = () => {
             <nav className="nav">
               <ul>
                 <li>
-                  <a href="#Home">Home</a>
+                  <Link activeClass="active" to="home" spy={true} smooth={true} duration={500}>
+                    Home
+                  </Link>
                 </li>
                 <li>
-                  <a href="#scroll-btn">About me</a>
+                  <Link activeClass="active" to="about" spy={true} smooth={true} duration={500}>
+                    About Me
+                  </Link>
                 </li>
                 <li>
-                  <a href="#section-mySkills">My resume</a>
+                  <Link activeClass="active" to="services" spy={true} smooth={true} duration={500}>
+                    My services
+                  </Link>
                 </li>
                 <li>
-                  <a href="#MyServices">My services</a>
+                  <Link activeClass="active" to="portfolio" spy={true} smooth={true} duration={500}>
+                    Portfolio
+                  </Link>
                 </li>
                 <li>
-                  <a href="#Portfolio">Portfolio</a>
-                </li>
-                <li>
-                  <a href="#contact">Contacts</a>
+                  <Link activeClass="active" to="contacts" spy={true} smooth={true} duration={500}>
+                    Contacts
+                  </Link>
                 </li>
               </ul>
             </nav>
