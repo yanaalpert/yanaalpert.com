@@ -83,17 +83,23 @@ const ContactMe = () => (
           </div>
           <div className="block-info">
             <div className="block-info__item">
-              Address: <span>California, USA</span>
+              Address: <span>Atlanta, Georgia, USA</span>
             </div>
             <div className="block-info__item">
-              Phone: <span>+380 68 055 0000</span>
+              Phone:{' '}
+              <span>
+                <a href="tel:9144261832">+1 914 426 1832</a>
+              </span>
             </div>
             <div className="block-info__item">
-              E-mail: <span>forexample@gmail.com</span>
+              E-mail:{' '}
+              <span>
+                <a href="mailto:hello@yanaalpert.com">hello@yanaalpert.com</a>
+              </span>
             </div>
-            <div className="block-info__item">
+            {/* <div className="block-info__item">
               Skype: <span>James.Skype</span>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

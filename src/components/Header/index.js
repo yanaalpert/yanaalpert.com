@@ -56,6 +56,28 @@ const Header = () => {
         <div className="Header__burger-menu" id="Header__burger-menu">
           <span></span>
         </div>
+
+        <div className="Header__links">
+          <ul>
+            <li>
+              <a href="#">
+                <i className="fab fa-github-alt"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i className="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i className="fab fa-twitter"></i>
+              </a>
+            </li>
+          </ul>
+          <span>Follow Me</span>
+        </div>
+
         <div className="Header__menu">
           <div className="menu-wrapp">
             <nav className="nav">

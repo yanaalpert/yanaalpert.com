@@ -4,7 +4,7 @@ import { Element, Link } from 'react-scroll'
 import bg from '../../image/bg.jpg'
 import mouse from '../../icons/mouse.svg'
 
-import Photo from '../../image/yana/hero2.png'
+import Photo from '../../image/yana/hero.png'
 
 const Hero = () => (
   <Element className="section-hero" id="Home" style={{ backgroundImage: `url(${bg})` }} name="home">

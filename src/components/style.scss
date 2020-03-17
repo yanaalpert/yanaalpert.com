@@ -18,6 +18,10 @@ body {
   letter-spacing: 0.8px;
 }
 
+a {
+  cursor: pointer;
+}
+
 // PRELOAD
 .vertical--center {
   position: fixed;
@@ -133,6 +137,54 @@ body {
     }
   }
   // /MENU
+
+  //LINKS
+  &__links {
+    position: fixed;
+    top: 50%;
+    left: 30px;
+    margin-top: -100px;
+    ul {
+      list-style: none;
+      li {
+        list-style: none;
+        margin-bottom: 10px;
+        font-size: 40px;
+        text-align: center;
+        transition: all 0.3s ease;
+        a {
+          text-decoration: none;
+          color: #111;
+        }
+        &:hover {
+          transform: scale(1.5, 1.5);
+        }
+      }
+    }
+    span {
+      top: 300px;
+      left: -19px;
+      width: 68px;
+      height: 20px;
+      font-size: 22px;
+      line-height: 1.2;
+      white-space: nowrap;
+      position: absolute;
+      transform: rotate(-90deg);
+      color: #111;
+      &::after {
+        content: '';
+        top: 11px;
+        right: -93px;
+        width: 40px;
+        height: 4px;
+        display: block;
+        position: absolute;
+        background-color: #111;
+      }
+    }
+  }
+
   // BURGER MENU
   &__burger-menu {
     top: 20px;
@@ -924,6 +976,11 @@ body {
     .contact-wrapp {
       padding-top: 80px;
       display: flex;
+
+      a {
+        color: black;
+      }
+
       &__form {
         .form-title {
           padding-bottom: 10px;
@@ -1271,6 +1328,11 @@ body {
   .Page_wrapper .fourth-section {
     padding: 0 20px;
   }
+
+  .Header__links {
+    display: none;
+  }
+
   .Page_wrapper .third-section {
     padding: 0 20px;
   }
