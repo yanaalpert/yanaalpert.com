@@ -75,11 +75,7 @@ const ContactMe = () => (
             <span>Let’s Get Work With Me</span>
           </div>
           <div className="info-subTitle">
-            <span>
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
-              laoreet dolore. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Lorem ipsum dolor sit amet,
-              consectetuer adipiscing elit
-            </span>
+            <span> I’m always looking for new opportunities to work, learn, and grow. </span>
           </div>
           <div className="block-info">
             <div className="block-info__item">

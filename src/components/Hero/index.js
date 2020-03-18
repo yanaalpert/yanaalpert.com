@@ -22,8 +22,9 @@ const Hero = () => (
         </div>
         <div className="Hero__about">
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut saepe aliquam, tenetur unde laudantium
-            voluptatem eos excepturi temporibus quaerat. Ratione eveniet.
+            Motivated, passionate and goal oriented UX designer, driven to create equally innovative and beautiful
+            solutions for clients and users. Punctual, organized, I like to take challenges in everyday life and at
+            work.
           </p>
         </div>
         <div className="Hero__btn">

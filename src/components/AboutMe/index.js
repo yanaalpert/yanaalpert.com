@@ -10,7 +10,7 @@ const AboutMe = () => (
         <h2>
           About <span>me</span>
         </h2>
-        <p>UX & UI designer based in usa.</p>
+        <p>UX & UI designer based in Atlanta.</p>
       </div>
       <div className="section-about">
         <div className="section-about__photo">
@@ -18,30 +18,39 @@ const AboutMe = () => (
         </div>
         <div className="section-about__info">
           <div className="section-about-name">
-            <h3>Hi, I'm James Brown</h3>
+            <h3>Hi, I'm Yana Alpert</h3>
           </div>
           <div className="section-about-subtitle">
             <p>
-              <span>UX & UI</span> designer based in usa
+              <span>UX & UI</span> designer based in Atlanta
             </p>
           </div>
           <div className="section-about-text">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure recusandae velit beatae est vitae harum
-              culpa. Eaque dolore nesciunt ab officiis sed obcaecati temporibus ipsa, dignissimos nemo voluptatibus
-              error! Suscipit. Eaque dolore nesciunt ab officiis sed obcaecati temporibus ipsa, dignissimos nemo
-              voluptatibus error! Suscipit.
+              Originally from Ukraine, from childhood I always wanted to learn and understand human behavior, I was
+              always curious and explored everything.{' '}
+              <p>
+                I got my first computer at 5 years old, my mother has always been an example for me. She worked in an
+                information center and I remember the time of floppy disks and punch cards. I studied at Computer
+                colledge, then I graduated from university and information tehnologies have always been very close to
+                me. At university, I developed an understanding of computers at both the physical and system's levels,
+                an understanding of design principles, and developed analytical thinking.
+              </p>{' '}
+              I like to work in a team. I’m a consistent, patient and efficient. I enjoy the design of everyday things
+              I'm always aspiring to learn something new, creative, logical and also constantly research innovations in
+              my industry. In my free time, I cook, run marathons, travel, draw, I love photography and have a big
+              collection of fridge magnets at home.
             </p>
           </div>
           <div className="section-about-personal-info">
             <div className="section-about-personal-info__column">
               <div className="section-about-media">
                 <label>Birthday:</label>
-                <p>4th april 1991</p>
+                <p>15 November 1987</p>
               </div>
               <div className="section-about-media">
                 <label>Age:</label>
-                <p>29 Yr</p>
+                <p>32 Yr</p>
               </div>
               <div className="section-about-media">
                 <label>Residence:</label>
@@ -49,21 +58,21 @@ const AboutMe = () => (
               </div>
               <div className="section-about-media">
                 <label>Address:</label>
-                <p>California, USA</p>
+                <p>Atlanta, USA</p>
               </div>
             </div>
             <div className="section-about-personal-info__column">
               <div className="section-about-media">
                 <label>E-mail:</label>
-                <p>forexample@gmail.com</p>
+                <p>hello@yanaalpert.com</p>
               </div>
               <div className="section-about-media">
                 <label>Phone:</label>
-                <p>+380 68 055 0000</p>
+                <p>+1(914)426-1832</p>
               </div>
               <div className="section-about-media">
                 <label>Skype:</label>
-                <p>James.Skype</p>
+                <p>crystal.yana</p>
               </div>
               <div className="section-about-media">
                 <label>Freelance:</label>
@@ -72,7 +81,7 @@ const AboutMe = () => (
             </div>
           </div>
           <div className="section-about-btn">
-            <a href="#">Download CV</a>
+            <a href="#">Download Portfolio</a>
           </div>
         </div>
       </div>
